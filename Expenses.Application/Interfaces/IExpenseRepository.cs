@@ -4,5 +4,5 @@ namespace Expenses.Application.Interfaces;
 
 public interface IExpenseRepository
 {
-  Task<Expense> CreateAsyn(Expense expense);
+  Task<Expense> CreateAsync(Expense expense);
 }
