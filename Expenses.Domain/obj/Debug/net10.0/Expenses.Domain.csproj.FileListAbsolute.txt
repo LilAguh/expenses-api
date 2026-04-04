@@ -1,0 +1,12 @@
+/Users/aguh/Documents/dev/expenses-api/Expenses.Domain/bin/Debug/net10.0/Expenses.Domain.deps.json
+/Users/aguh/Documents/dev/expenses-api/Expenses.Domain/bin/Debug/net10.0/Expenses.Domain.dll
+/Users/aguh/Documents/dev/expenses-api/Expenses.Domain/bin/Debug/net10.0/Expenses.Domain.pdb
+/Users/aguh/Documents/dev/expenses-api/Expenses.Domain/obj/Debug/net10.0/Expenses.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aguh/Documents/dev/expenses-api/Expenses.Domain/obj/Debug/net10.0/Expenses.Domain.AssemblyInfoInputs.cache
+/Users/aguh/Documents/dev/expenses-api/Expenses.Domain/obj/Debug/net10.0/Expenses.Domain.AssemblyInfo.cs
+/Users/aguh/Documents/dev/expenses-api/Expenses.Domain/obj/Debug/net10.0/Expenses.Domain.csproj.CoreCompileInputs.cache
+/Users/aguh/Documents/dev/expenses-api/Expenses.Domain/obj/Debug/net10.0/Expenses.Domain.sourcelink.json
+/Users/aguh/Documents/dev/expenses-api/Expenses.Domain/obj/Debug/net10.0/Expenses.Domain.dll
+/Users/aguh/Documents/dev/expenses-api/Expenses.Domain/obj/Debug/net10.0/refint/Expenses.Domain.dll
+/Users/aguh/Documents/dev/expenses-api/Expenses.Domain/obj/Debug/net10.0/Expenses.Domain.pdb
+/Users/aguh/Documents/dev/expenses-api/Expenses.Domain/obj/Debug/net10.0/ref/Expenses.Domain.dll
