@@ -36,6 +36,29 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Expenses.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Expenses.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Expenses.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Expenses.Application.dll": {}
+        }
+      },
+      "Expenses.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Expenses.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Expenses.Domain.dll": {}
+        }
       }
     }
   },
@@ -75,10 +98,21 @@
         "microsoft.openapi.2.0.0.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "Expenses.Application/1.0.0": {
+      "type": "project",
+      "path": "../Expenses.Application/Expenses.Application.csproj",
+      "msbuildProject": "../Expenses.Application/Expenses.Application.csproj"
+    },
+    "Expenses.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Expenses.Domain/Expenses.Domain.csproj",
+      "msbuildProject": "../Expenses.Domain/Expenses.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "Expenses.Application >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 10.0.5"
     ]
   },
@@ -106,7 +140,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/aguh/Documents/dev/expenses-api/Expenses.Application/Expenses.Application.csproj": {
+              "projectPath": "/Users/aguh/Documents/dev/expenses-api/Expenses.Application/Expenses.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
