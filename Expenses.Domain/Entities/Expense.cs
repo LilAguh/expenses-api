@@ -12,6 +12,8 @@ public class Expense
   //string de categoria
   public string Currency {get; set;} = "ARS";
   //string de tipo de moneda
+  public string User {get; set;} = string.Empty;
+  //usuario que hizo el gasto
   public DateTime CreatedAt {get; set;}
   //fecha de creacion del ticket
 }
