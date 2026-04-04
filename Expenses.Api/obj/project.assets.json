@@ -59,6 +59,19 @@
         "runtime": {
           "bin/placeholder/Expenses.Domain.dll": {}
         }
+      },
+      "Expenses.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Expenses.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Expenses.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Expenses.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -108,11 +121,17 @@
       "type": "project",
       "path": "../Expenses.Domain/Expenses.Domain.csproj",
       "msbuildProject": "../Expenses.Domain/Expenses.Domain.csproj"
+    },
+    "Expenses.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Expenses.Infrastructure/Expenses.Infrastructure.csproj",
+      "msbuildProject": "../Expenses.Infrastructure/Expenses.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "Expenses.Application >= 1.0.0",
+      "Expenses.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 10.0.5"
     ]
   },
@@ -143,6 +162,9 @@
           "projectReferences": {
             "/Users/aguh/Documents/dev/expenses-api/Expenses.Application/Expenses.Application.csproj": {
               "projectPath": "/Users/aguh/Documents/dev/expenses-api/Expenses.Application/Expenses.Application.csproj"
+            },
+            "/Users/aguh/Documents/dev/expenses-api/Expenses.Infrastructure/Expenses.Infrastructure.csproj": {
+              "projectPath": "/Users/aguh/Documents/dev/expenses-api/Expenses.Infrastructure/Expenses.Infrastructure.csproj"
             }
           }
         }
