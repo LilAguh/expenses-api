@@ -1,4 +1,4 @@
-namespace Expenses.Doomain.Entities;
+namespace Expenses.Domain.Entities;
 
 public class Expense
 {
