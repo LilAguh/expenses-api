@@ -5,5 +5,5 @@ namespace Expenses.Application.Interfaces;
 
 public interface IExpenseService
 {
-  Expense CreateExpense(CreateExpenseRequest request);
+  Task<Expense> CreateExpense(CreateExpenseRequest request);
 }
