@@ -16,9 +16,9 @@ public class ExpensesController : ControllerBase
   }
 
   [HttpPost]
-  public IActionResult CreateExpense(CreateExpenseRequest request)
+  public async Task<IActionResult> CreateExpense(CreateExpenseRequest request)
   {
-    var expense = _service.CreateExpense(request);
+    var expense = await _service.CreateExpense(request);
     return Ok(expense);
   }
 }
